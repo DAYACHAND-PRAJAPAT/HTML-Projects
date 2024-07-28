@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Resistration Form </title>
+        <link rel="icon" href="/images/id-card.png">
+   </head>
+   <body>
+       <style>
+        h1 {
+            font-size: 20px;
+            color: rgb(245, 240, 240);
+            background-color: rgb(95, 60, 161);
+            text-align: center;
+        }
+       </style>
+       <h1>New Resistration</h1>
+       <form>
+
+        <label for="first name">Enter first name:</label>
+        <input type="text" placeholder="first name" id="first name" required><br>
+
+        <br><label for="last name">Enter last name:</label>
+        <input type="text" placeholder="last name" id="last name"><br>
+
+        <br><label for="password">Enter your password:</label>
+        <input type="password" id="last name" required><br>
+
+        <br><label for="email">Enter email id:</label>
+        <input type="email" id="email"><br>
+
+        <br><label for="age">Enter your age:</label>
+        <input type="number" placeholder="age" id="age"><br>
+
+        <br><label for="DOB">Enter your DOB:</label>
+        <input type="date" id="DOB" required><br>
+
+        <br><label for="gender">Select gender:</label>
+        <input type="radio" value="male" id="gender" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" value="female" id="gender" name="gender">
+        <label for="female">Female</label><br>
+
+        <br><label for="time">Enter your submission time:</label>
+        <input type="time" id="time"><br>
+
+        <br><label for="work">You have worked any where:</label>
+        <input type="radio" value="Yes" id="work" name="work">
+        <label for="Yes">Yes</label>
+        <input type="radio" value="No" id="work" name="work">
+        <label for="No">No</label><br>
+
+        <br><label for="experiance">Enter your working experiance:</label>
+        <input type="number" placeholder="working experiance" id="experiance"><br>
+
+        <br><label for="document">Place your graduation mark sheet:</label>
+        <input type="file" id="document"><br>
+
+        <br><label for="destination">Select your job destination:</label>
+            <select id="destination"> 
+                <option value="Delhi">Delhi</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Hydrabad">Hydrabad</option>
+                <option value="Chennai">Chennai</option>
+            </select><br>
+
+            <br><textarea placeholder="Enter your consent letter..." rows="5" cols="50"></textarea>
+  
+            <br><input type="checkbox" id="terms" value="agree">
+            <label for="terms">I agree for all conditions.</label><br>
+            
+            <br><input type="submit"><br>
+            <br><input type="reset">
+
+       </form>
+   </body>
+</html>
